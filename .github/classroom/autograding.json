@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "TestOrderConfirmation",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=BookStoreTest#testOrderConfirmation test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "TestRandomBookDetailEnum",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=BookStoreTest#testRandomBookDetail test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "TestEnumConstantCount",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=BookStoreTest#testEnumConstantsCount test ",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "TestGetBookName",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=BookStoreTest#testGetBookName test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "TestBookStoreConstructor",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=BookStoreTest#testBookStoreConstructor test ",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}
